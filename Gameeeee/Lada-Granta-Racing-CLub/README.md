@@ -1,1 +1,0 @@
-# Lada-Granta-Racing-CLub
