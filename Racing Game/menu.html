@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Menu For Racing Club</title>
+</head>
+<body>
+  <div id="name">Добро пожаловать в Racing Club!
+  </div>
+    <a href="loading.html"><div id="newGame" onclick="runGame()" onmouseover="this.style.backgroundColor = 'goldenrod'" onmouseout="this.style.backgroundColor = 'gold'">Новая игра</a>
+  </div>
+  </div>
+    <div id="main">
+    <script>
+      var runGame = function(){
+        document.getElementById("newGame").style.display = "none";
+        document.getElementById("name").style.display = "none";
+}
+
+  var goBack = function(){
+      document.getElementById("name").style.display = "block";
+      document.getElementById("newGame").style.display = "block";
+};
+
+
+    </script>
+
+    </body>
+</html> 
